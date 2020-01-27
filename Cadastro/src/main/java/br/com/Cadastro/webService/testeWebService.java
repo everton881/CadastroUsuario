@@ -10,7 +10,7 @@ public class testeWebService {
 	@WebMethod
 	public String ping(@WebParam(name="nome") String nome) {
 		
-		return "pong1" + nome;
+		return "pong" + nome;
 	}
 	
 }
